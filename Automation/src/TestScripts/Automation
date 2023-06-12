@@ -1,0 +1,14 @@
+public class HtmlsourceCode{
+    static{
+        system.setproperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+    }
+    public static void public static void main(String[] args) {
+        webdriver driver=new chromedriver();
+        driver.get("https://www.google.com/");
+       String htmlcode=driver.getpagesource();
+       system.out.println(htmlcode);
+       driver.close();
+
+        
+    }
+}
